@@ -1,0 +1,51 @@
+
+
+/*login page start*/
+
+.main{
+    background-color: brown;
+   
+}
+.welcome_text
+{
+/*       background-color: #563d7cbf;*/
+    height: 102px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px;
+    margin: 20px 15%;
+    width: 70%;
+}
+.signup,.log_in{
+/*     background-color: #563d7cbf;*/
+    color: white;
+     font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+    text-align: center;
+    
+}
+.signup_form{
+    
+}
+.signup_form input,.login_form input{
+    padding: 10px;
+    margin: 4px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: #563d7cbf;
+}
+.cover_img{
+    background-color: #ffffff80;
+}
+.pro_icon{
+    padding: 20px
+}
+.doctors_menu{
+        background-color: #a5c0d3cf;
+    color: white;
+}
+
+/*login page end*/
+
