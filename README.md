@@ -1,6 +1,4 @@
 
-https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/master/documantation/cpc-mate.docx
-
 
 
 
