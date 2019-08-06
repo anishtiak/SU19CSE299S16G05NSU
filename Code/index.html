@@ -48,56 +48,61 @@
             })
         </script>
     </head>
-    
-   / update  //
-    
-    
-        $result=$conn->query($sql);
-        $resultcheck=$result->num_rows;
+        
+   <nav class="navbar" id="insidenav">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#">Job Portal</a>
+      </div>
 
-        if($resultcheck<=0){
-            $msg="signup first!";
-            echo $msg;                                                          
-        }
-        else{
-            $credentials=$result->fetch_all(MYSQLI_ASSOC);
-            $loggedin=false;
-            $emailfound=false;
-            foreach ($credentials as $value ) {
-                if(strcmp($email,$value["email"])==0){
-                    $emailfound=true;
-                    if(strcmp($password, $value["password"] == 0)){
-                        $loggedin=true;
-                        break;
-                    }
-                    else{
-                        $msg="password mismatch!";
-                        break;
-                    }
+    <ul class="nav navbar-nav">
+      <li class="active"><a data-toggle="tab" href="#main1">Home</a></li>
+        <li><a data-toggle="tab" href="#recent"">Recent Jobs</a></li>
+      <li><a data-toggle="tab" href="#jobseeker">Job Seeker</a></li>
+      <li><a data-toggle="tab" href="#">Employer</a></li>
+      <li><a data-toggle="tab" href="#contact">Contact Us</a></li>
+    </ul>
 
-                }
-                else if(strcmp($email, $value["email"])!=0) {
-                    $emailfound=false;
-                    # code...
-                }
-            }
+    <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="glyphicon glyphicon-user"></span> Register <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="jobseeker/register_user.php">Jobseeker</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="employer/register_emp.php">Employer</a></li>
+                    </ul>
+                </li>
+                <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+    <!--- -------------------------------------------------------------------------------------------------- -->
+    <body id="indexbody" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-            if(!$emailfound){
-                $msg="email not registered!";
-            }
 
-           if($loggedin){
-                $sql="SELECT first_name FROM patient WHERE email=".'"'.$email.'"';
-                $result=$conn->query($sql);
-                $resultName=$result->fetch_assoc();
-                $_SESSION['username']=$resultName['first_name'];
+<div class="container-fluid" id="main1"> <!-- jumbotron fluid -->
+<div class="jumbotron text-center" id="searchjum">
+<h1>CPCMATE</h1>
+    <p>Search for Jobs</p>
+    <form class="form-inline" id="homesearch">
+        <input type="text" class="form-control" size="50" placeholder="Enter your search keyword" name="keyword" id="keyword">
+        <button type="button" onclick="search()" class="btn btn-lg " style="color: black"><span class="glyphicon glyphicon-search"></span> Search</button>
+    </form>
+</div>
+</div> <!-- jumbotron -->
 
-                header("Location: home.php");
-           }
-        } 
-    }
-}
-
+<div class="container" id="subcontent" style="background: transparent">
+    <!-- div for search contents -->
+</div>
+<div class="page-header" style="background:#1abc9c"></div>
+<div class="container-fluid" style="background: transparent">
+    <div class="text-center">
+        <h2>Register</h2>
+                
+                
+                /*update*/
+                
+                
 ?>
 
 -->
