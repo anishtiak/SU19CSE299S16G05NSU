@@ -99,55 +99,57 @@
     <div class="text-center">
         <h2>Register</h2>
                 
-                
-                /*update*/
-                
-                
-?>
-
--->
-
-
-<head>
-    <meta charset="UTF-8">
-    
-
-    <title>LOGIN</title>
- 
-  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Lato:300,300i,400" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-   <link rel="stylesheet" href="css/bootstrap.css">
-     <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body style="    background-image: url(img/computer-desk-doctor-48604.jpg);   background-size: cover;
-    background-color: white;
-  padding: 0px;">
-    
-    <div class="container fluid main">
-
-       <div class="row">
-       <div data-aos="fade-down" class="welcome_text">
-         <h1>Say Hello T0 North South University CPC</h1>
-           <h2 style="text-align: center; color: white !important; margin: 20px 0px;">Sign Up Here</h2>
-       </div>
-
-      </div>
-         <div class="row">
-         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin: 40px 0px;">
-    
-            
-             <div class="signup " data-aos="fade-right">
-              <form action="" class="signup_form">   
-            </form>
-             
-<div class="">
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>"method="post" class="signup_form">
-        
-  <label for="first_name">Name</label> <br>
-        <input type="text" name="patient_first_name" placeholder="Name " required> 
-        <br>
-        <br>
+                       <h4>Register in this website for a better experience</h4>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Employers</h1>
+                </div>
+                <div class="panel-body">
+                    <p style="font-size: 16px">Register today and post a job in easy steps and start receiving applications the same day.
+                        Find the right candidates easily and quickly through our Search feature.</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$0</h3>
+                   <a href="employer/register_emp.php" style="color: inherit"> <button class="btn btn-lg">Sign Up</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Job Seekers</h1>
+                </div>
+                <div class="panel-body">
+                    <p style="font-size: 16px">Helps passive and active jobseekers find better jobs. Get connected with over 45000 recruiters.
+                        Apply to jobs in just one click. Apply to thousands of jobs posted daily.</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$0</h3>
+                    <a href="jobseeker/register_user.php" style="color: inherit"><button class="btn btn-lg">Sign Up</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Premium</h1>
+                </div>
+                <div class="panel-body">
+                    <p style="font-size: 16px;">Better Exposure <br>
+                        Better Support</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$4</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg disabled">Upgrade</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
         
         <label for="last_name">CGPA</label> <br>
         <input type="text" name="patient_last_name" placeholder="CGPA" required>
