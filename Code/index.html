@@ -150,132 +150,81 @@
         </div>
     </div>
 </div>
-        
-        <label for="last_name">CGPA</label> <br>
-        <input type="text" name="patient_last_name" placeholder="CGPA" required>
-        <br>
-        <br>
-        
-        <label for="gender">Gender</label> <br>
-         
-       <select name="patient_gender" style=" padding: 10px;
-    margin: 4px;
+ 
+                
+                
+    <div class="container bg-grey" id="contact">
+        <div class="page-header" style="background: #f4511e"></div>
+        <h2 class="text-center">CONTACT US</h2>
+        <div class="page-header"></div>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> NORTH SOUTH UNIVERSITY</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +880-2-55668200</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> info@NSUCPC.com</p>
+            </div>
 
-    border-radius: 8px;
-    color: #563d7cbf;">
-        <option value="0">Male</option>
-        <option value="1">Female</option>
-        </select>
-        <br>
-        <br>
-        
-        <label for="subject" >Major in course</label> 
-        <br><input type="text" name="patient_last_name" placeholder="Subject" required>
-        <br>
-        <br>
-        <label for="location">Location</label> <br>
-         <input type="text" name="patient_location" placeholder="Location" name="Location"> 
-        <br>
-        <br>
-      
-        
-    </form>
-    </div>
-                 <div class="result">
-                 <?php echo $msg ?>
-                 </div>
-        </div>
-        </div>
-             
-                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin: 40px 0px;">
-          <div class="log_in" data-aos="fade-left">
-            
-            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="login_form">
-                  
-        
-           
-        
-        
-        
-        
-        <label for="location">Graduation Year</label> <br>
-         <input type="Number" name="patient_location" placeholder="Graduation year" name="Graduation year"> 
-        <br>
-        <br>
-        
-         <label for="gender">Graduated</label> <br>
-        
-        
-        <select name="patient_gender" style=" padding: 10px;
-    margin: 4px;
-
-    border-radius: 8px;
-    color: #563d7cbf;">
-        <option value="0">yes</option>
-        <option value="1">No</option>
-        </select>
-        <br>
-        <br>
-        
-        
-        
-        <label for="email">Email</label> <br>
-        <input type="email" name="patient_email" placeholder="Email address" required> 
-        <br>
-        <br>
-        
-        <label for="password">Password</label> <br>
-         <input type="password" name="User_password" placeholder="Password">
-        <br>
-        <br>
-        
-         <label for="password">Confirm Password</label> <br>
-         <input type="password" name="confirm_password" placeholder="Confirm Password">
-        <br>
-        <br>
-              </form>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
                 </div>
             </div>
-             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 offset-1">
-                 
-                
-          <div class="log_in" data-aos="fade-left">
-                 
-                <div class="container-contact100-form-btn">
-                    <button name="" class="contact100-form-btn" style="backgroud-color:white !important;">
-                        
-                       <a href="#" style="color: white;">SignUp</a>  
-                        
-                     
-                    </button>
-                </div>
-               <div class="container-contact100-form-btn" style="backgroud-color:white !important;">
-                    <button name="" class="contact100-form-btn" style="backgroud-color:white !important;">
-                        
-                       
-                       <a href="index2.html" style="color: white;">Company SignUp</a>  
-                     
-                    </button>
-                </div>
-            
         </div>
-        
-        
+    </div> <!-- Contact -->
 
-       </div>
+</div> <!-- sub content -->
+ <div class="page-header" style="background: #f4511e"></div>
+</div> <!-- Container -->
+<!-- Set height and width with CSS -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
 
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+    var myCenter = new google.maps.LatLng(11.2680519,75.7891479);
 
+    function initialize() {
+        var mapProp = {
+            center:myCenter,
+            zoom:12,
+            scrollwheel:false,
+            draggable:false,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
 
-    </div>
-    
-    </div>
-    
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-          
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/aos.js"></script>
- 
+        var marker = new google.maps.Marker({
+            position:myCenter,
+        });
+
+        marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<footer class="container-fluid text-center">
+    <a href="#insidenav" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Job Portal</p>
+</footer>
 </body>
-
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
 </html>
