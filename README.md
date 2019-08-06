@@ -5,8 +5,8 @@
 
 
 
-**Project Name :** CPC MATE (Jobs site for NSU CPC)
-**Course Number:** CSE 299
+##Project Name :## CPC MATE (Jobs site for NSU CPC)
+##Course Number:** CSE 299
 **Section:** 16
 **Semester:** Summer 2019
 **Faculty Name: Shaikh Shawon Arefin Shimon
