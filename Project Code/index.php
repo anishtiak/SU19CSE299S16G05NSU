@@ -49,10 +49,11 @@
         </script>
     </head>
         
-   <nav class="navbar" id="insidenav">
+<nav class="navbar" id="insidenav">
   <div class="container-fluid">
       <div class="navbar-header">
-          <a class="navbar-brand" href="#">Job Portal</a>
+
+          <a class="navbar-brand" href="#">CPCMATE</a>
       </div>
 
     <ul class="nav navbar-nav">
@@ -82,7 +83,8 @@
 
 <div class="container-fluid" id="main1"> <!-- jumbotron fluid -->
 <div class="jumbotron text-center" id="searchjum">
-<h1>CPCMATE</h1>
+<h1> <img src="/job_portal/images/cpc.png" alt="Simply Easy Learning" width="600"
+         height="250"></h1>
     <p>Search for Jobs</p>
     <form class="form-inline" id="homesearch">
         <input type="text" class="form-control" size="50" placeholder="Enter your search keyword" name="keyword" id="keyword">
@@ -98,8 +100,7 @@
 <div class="container-fluid" style="background: transparent">
     <div class="text-center">
         <h2>Register</h2>
-                
-                       <h4>Register in this website for a better experience</h4>
+        <h4>Register in this website for a better experience</h4>
     </div>
     <div class="row">
         <div class="col-sm-4">
@@ -150,9 +151,8 @@
         </div>
     </div>
 </div>
- 
-                
-                
+
+
     <div class="container bg-grey" id="contact">
         <div class="page-header" style="background: #f4511e"></div>
         <h2 class="text-center">CONTACT US</h2>
@@ -193,7 +193,7 @@
 <!-- Add Google Maps -->
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
-    var myCenter = new google.maps.LatLng(11.2680519,75.7891479);
+    var myCenter = new google.maps.LatLng(23.8152478,90.4244329);
 
     function initialize() {
         var mapProp = {
