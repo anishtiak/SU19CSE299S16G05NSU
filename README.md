@@ -3,7 +3,7 @@
 </p>
 
 
-        <dt>justify
+<dt>
         
 ##Project Name :## CPC MATE (Jobs site for NSU CPC)
 ##Course Number:** CSE 299
