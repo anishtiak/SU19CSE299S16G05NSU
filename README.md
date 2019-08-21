@@ -5,11 +5,11 @@
 
 <dt>
         
-##Project Name :## CPC MATE (Jobs site for NSU CPC)
-##Course Number:** CSE 299
-**Section:** 16
-**Semester:** Summer 2019
-**Faculty Name: Shaikh Shawon Arefin Shimon
+##Project Name :## CPC MATE (Jobs site for NSU CPC)<br/>
+##Course Number:** CSE 299<br/>
+**Section:** 16<br/><br/>
+**Semester:** Summer 2019<br/>
+Faculty Name: Shaikh Shawon Arefin Shimon<br/>
 
 **Name:**	Ishtiak Ahmed
 **Student ID:**	153 0494 042
