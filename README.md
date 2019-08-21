@@ -3,8 +3,8 @@
 </p>
 
 
-        <dt>justify</dt>
-        <dd>Align the elements justified.</dd>
+        <dt>justify
+        
 ##Project Name :## CPC MATE (Jobs site for NSU CPC)
 ##Course Number:** CSE 299
 **Section:** 16
@@ -53,4 +53,4 @@ A job seeker will have to signup and put information about their academic career
 Companies have to give an amount to post about their post and give profit In a certain amount after getting candidate for their vacancies. We also have the facilities to make payment using Bkash , Ucash and other mobile banking services .we will send email notification to to every eligible candidate if a job circular is posted and it matches with their requirement and qualification .
 
  
-
+</dt>
