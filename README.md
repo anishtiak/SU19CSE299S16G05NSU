@@ -23,7 +23,9 @@ sarina.sultana@northsouth.edu
 
 
 **Project Proposal in brief:**
+<dt>
 Our main idea is to create a general platform for making the process of searching job according to one’s accolades and desire for job  . Our site will be containing people who wants to search for job and also who are willing to  provide  job according to the vacancies in company.
+</dt>
 
 
 **Problem I am trying to solve:**
@@ -52,6 +54,5 @@ A job seeker will have to signup and put information about their academic career
 **Monetization:**
 Companies have to give an amount to post about their post and give profit In a certain amount after getting candidate for their vacancies. We also have the facilities to make payment using Bkash , Ucash and other mobile banking services .we will send email notification to to every eligible candidate if a job circular is posted and it matches with their requirement and qualification .
 
-         <dt>justify</dt>
 
 </dt>
