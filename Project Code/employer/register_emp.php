@@ -54,7 +54,7 @@ else {
 <nav class="navbar" id="insidenav">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="../index.php">Job Portal</a>
+      <a class="navbar-brand" href="../index.php">CPCMATE</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Employer Registration</a></li>
