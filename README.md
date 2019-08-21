@@ -2,26 +2,27 @@
   <img width="300" height="250" src="https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg">
 </p>
 
+<p align="center">
 
 <dt>
-        
+        <br/>
 ##Project Name :## CPC MATE (Jobs site for NSU CPC)<br/>
 ##Course Number:** CSE 299<br/>
 **Section:** 16<br/><br/>
 **Semester:** Summer 2019<br/>
 Faculty Name: Shaikh Shawon Arefin Shimon<br/>
 
-**Name:**	Ishtiak Ahmed
-**Student ID:**	153 0494 042
-**Name:** Sarina Sultana
-**Student Id:** 152 0382 042
-**NSU email:**	Ishtiak.ahmed@northsouth.edu	
+**Name:**	Ishtiak Ahmed<br/>
+**Student ID:**	153 0494 042<br/>
+**Name:** Sarina Sultana<br/>
+**Student Id:** 152 0382 042<br/>
+**NSU email:**	Ishtiak.ahmed@northsouth.edu	<br/>
 sarina.sultana@northsouth.edu
-**Git repository link:**	https://github.com/anishtiak/SU19CSE299S16G05NSU
-**Group Member:Two**
-**Date prepared: 12 june, 2019**
+**Git repository link:**	https://github.com/anishtiak/SU19CSE299S16G05NSU <br/>
+**Group Member:Two** <br/>
+**Date prepared: 12 june, 2019** <br/>
 
-
+<br/>
 **Project Proposal in brief:**
 <dt>
 Our main idea is to create a general platform for making the process of searching job according to one’s accolades and desire for job  . Our site will be containing people who wants to search for job and also who are willing to  provide  job according to the vacancies in company.
@@ -54,5 +55,6 @@ A job seeker will have to signup and put information about their academic career
 **Monetization:**
 Companies have to give an amount to post about their post and give profit In a certain amount after getting candidate for their vacancies. We also have the facilities to make payment using Bkash , Ucash and other mobile banking services .we will send email notification to to every eligible candidate if a job circular is posted and it matches with their requirement and qualification .
 
+</p>
 
 </dt>
