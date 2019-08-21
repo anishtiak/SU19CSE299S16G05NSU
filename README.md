@@ -20,6 +20,7 @@ sarina.sultana@northsouth.edu
 **Git repository link:**	https://github.com/anishtiak/SU19CSE299S16G05NSU <br/>
 **Group Member:Two** <br/>
 **Date prepared: 12 june, 2019** <br/>
+</p>
 
 <br/>
 **Project Proposal in brief:**
