@@ -52,5 +52,6 @@ A job seeker will have to signup and put information about their academic career
 **Monetization:**
 Companies have to give an amount to post about their post and give profit In a certain amount after getting candidate for their vacancies. We also have the facilities to make payment using Bkash , Ucash and other mobile banking services .we will send email notification to to every eligible candidate if a job circular is posted and it matches with their requirement and qualification .
 
- 
+         <dt>justify</dt>
+
 </dt>
