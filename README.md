@@ -1,10 +1,6 @@
-<p align="center">
-
-
-![nsu](https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg)
-
+<p align="center"> 
+<img src="![nsu](https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg)">
 </p>
-
 
 
 ##Project Name :## CPC MATE (Jobs site for NSU CPC)
