@@ -10,16 +10,15 @@ Course Number: CSE 299<br/>
 Section: 16<br/><br/>
 Semester: Summer 2019<br/>
 Faculty Name: Shaikh Shawon Arefin Shimon<br/>
-
-**Name:**	Ishtiak Ahmed<br/>
-**Student ID:**	153 0494 042<br/>
-**Name:** Sarina Sultana<br/>
-**Student Id:** 152 0382 042<br/>
-**NSU email:**	Ishtiak.ahmed@northsouth.edu	<br/>
+Name:	Ishtiak Ahmed<br/>
+Student ID:	153 0494 042<br/>
+Name: Sarina Sultana<br/>
+Student Id: 152 0382 042<br/>
+NSU email:	Ishtiak.ahmed@northsouth.edu	<br/>
 sarina.sultana@northsouth.edu
-**Git repository link:**	https://github.com/anishtiak/SU19CSE299S16G05NSU <br/>
-**Group Member:Two** <br/>
-**Date prepared: 12 june, 2019** <br/>
+Git repository link:	https://github.com/anishtiak/SU19CSE299S16G05NSU <br/>
+Group Member:Two<br/>
+Date prepared: 12 june, 2019 <br/>
 </p>
 
 <br/>
