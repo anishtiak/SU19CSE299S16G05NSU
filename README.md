@@ -1,5 +1,5 @@
 <p align="center">
-  < src="https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg">
+  <img width="300" height="200" src="https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg">
 </p>
 
 
