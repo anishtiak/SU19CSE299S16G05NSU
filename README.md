@@ -23,9 +23,7 @@ Date prepared: 12 june, 2019 <br/>
 
 <br/>
 **Project Proposal in brief:**
-<dt>
 Our main idea is to create a general platform for making the process of searching job according to one’s accolades and desire for job  . Our site will be containing people who wants to search for job and also who are willing to  provide  job according to the vacancies in company.
-</dt>
 
 
 **Problem I am trying to solve:**
@@ -35,21 +33,21 @@ Our main idea is to create a general platform for making the process of searchin
 **How my product will solve the problem:**
 A job seeker will have to signup and put information about their academic career  .There will be companies posting their vacancies in the site. Jobs will be pushed to the  newsfeed of job seeker according to their qualifications and they can directly apply from our site. Only thoese can apply whoese requirments will matched with providers conditions.
 
-**Features:**
--1.	Notification panel for job seekers 
--2.	Filtered by matched requirements panel 
--3.	News feed with all the job advertisement 
--4.	One click apply for jobs 
--5.	Email notifications prior to selection in job
--6.	Mobile text notification
+**Features:**<br/>
+-1.	Notification panel for job seekers <br/>
+-2.	Filtered by matched requirements panel <br/>
+-3.	News feed with all the job advertisement <br/>
+-4.	One click apply for jobs <br/>
+-5.	Email notifications prior to selection in job <br/>
+-6.	Mobile text notification <br/>
 
 
-**Technology:**
--1)	MySqL
--2)	PHP 
--3)	HTML 
--4)	CSS
--5)	Bootstrap 
+**Technology:**<br/>
+-1)	MySqL <br/>
+-2)	PHP <br/>
+-3)	HTML <br/>
+-4)	CSS <br/>
+-5)	Bootstrap <br/>
 
 **Monetization:**
 Companies have to give an amount to post about their post and give profit In a certain amount after getting candidate for their vacancies. We also have the facilities to make payment using Bkash , Ucash and other mobile banking services .we will send email notification to to every eligible candidate if a job circular is posted and it matches with their requirement and qualification .
