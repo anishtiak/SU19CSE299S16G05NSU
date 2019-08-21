@@ -1,8 +1,9 @@
-<div style="text-align:center">
+<p align="center">
+
+
 ![nsu](https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg)
-</div>
 
-
+</p>
 
 
 
