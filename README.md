@@ -2,14 +2,13 @@
   <img width="300" height="250" src="https://github.com/anishtiak/SU19CSE299S16G05NSU/blob/Sarina/Mockup/nsu.jpg">
 </p>
 
-<p align="center">
 
 <dt>
-        <br/>
-##Project Name :## CPC MATE (Jobs site for NSU CPC)<br/>
-##Course Number:** CSE 299<br/>
-**Section:** 16<br/><br/>
-**Semester:** Summer 2019<br/>
+ <p align="center">       <br/>
+Project Name :CPC MATE (Jobs site for NSU CPC)<br/>
+Course Number: CSE 299<br/>
+Section: 16<br/><br/>
+Semester: Summer 2019<br/>
 Faculty Name: Shaikh Shawon Arefin Shimon<br/>
 
 **Name:**	Ishtiak Ahmed<br/>
