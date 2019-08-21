@@ -3,6 +3,8 @@
 </p>
 
 
+        <dt>justify</dt>
+        <dd>Align the elements justified.</dd>
 ##Project Name :## CPC MATE (Jobs site for NSU CPC)
 ##Course Number:** CSE 299
 **Section:** 16
